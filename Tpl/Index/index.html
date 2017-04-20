@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>金牛会员促销</title>
+    
+    <link rel="stylesheet" href="../Public/build/main.css" />
+	<!--<link rel="stylesheet" href="../Public/build/main2.css" />-->
+	<script>
+		var APP_URL = '__APP__';
+		var AJAX_URL = 'https://pamilu.cn/index.php';
+		
+		
+		window.parent.postMessage('{"pageHeight":1200}','*');
+	</script>
+</head>
+
+<body id="appBody" style="overflow-y: hidden;">
+	<div id="token" style="display:none">{#$token#}</div>
+	<script>
+    	var token='?token='+document.getElementById("token").innerHTML;
+    </script>
+    <div id="app" class="app_con"></div>
+	<script src="https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+    <script src="../Public/build/vendor.js"></script>
+    <script src="../Public/build/main.js"></script>
+    
+ <!--    <script src="../Public/src/entry.js"></script>
+    <script src="../Public/src/components/app.js"></script>
+    <script src="../Public/src/components/home.js"></script>
+    <script src="../Public/src/components/manage.js"></script>
+    <script src="../Public/src/components/payfullgive.js"></script>
+    <script src="../Public/src/components/paygive.js"></script>
+    <script src="../Public/src/components/pullnew.js"></script> -->
+    
+    
+</body>
+
+</html>

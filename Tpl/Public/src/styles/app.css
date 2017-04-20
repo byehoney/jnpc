@@ -1,0 +1,170 @@
+html, body, div, h5, h6, p, ul, li {
+    margin: 0px;
+    padding: 0px;
+}
+.app_con{
+    width: 1000px;
+    margin: 0 auto;
+}
+div.ant-modal{
+	top: 200px;
+}
+body{
+	height: auto;
+}
+#appBody{
+	overflow-y: hidden;
+}
+.giveFormDiv{
+	height: 900px;
+	overflow: auto;
+	overflow-x: hidden;
+}
+form.giveForm{
+	float: left;
+    width: 650px;
+    margin-left: 50px;
+}
+.app_con .nav_wrapper {
+    padding-left: 22px;
+    border-bottom: 1px solid #e4e4e4;
+    position: relative;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.app_con .nav_wrapper .ant-menu {
+    margin-bottom: -1px;
+}
+.app_con .nav_wrapper .ant-menu-item a {
+    font-size: 16px;
+    color: #999999;
+    line-height: 44px;
+}
+.app_con .nav_wrapper .ant-menu-item.ant-menu-item-selected a {
+    color: #007cd6;
+}
+.app_con .nav_wrapper .ant-menu-item {
+    float: left;
+    margin-right: 40px;
+}
+
+p.ctitle{
+    font-size: 18px;
+    padding: 0 0 35px 15px; 
+    font-weight: 700;
+}
+.gz_box{
+    background-color: #f9f9f9;
+    line-height: 20px;
+    padding: 12px 20px;
+    position: relative;
+    width: 420px;
+    margin-bottom: 8px;
+}
+.coupon-wrapper{
+    margin-top: 15px;
+}
+.change-coupon {
+    color: #2db7f5;
+    cursor: pointer;
+    margin-left: 24px;
+}
+.coupon {
+    background-color: #f3393a;
+    border: 1px dashed #000000;
+    border: 1px dashed rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 1px 2px #f3393a;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    height: 32px;
+    line-height: 30px;
+    padding-left: 24px;
+    width: 296px;
+}
+
+.ant-row.ant-form-item.auto_delay_flag{
+    margin-right: -30px;
+}    
+.pullform div.ant-form-splitCol{
+	width: 15px;
+    margin-right:10px;
+}
+.pullform{
+    margin-left: 170px;
+    margin-top: 35px;
+}
+.pullform *{
+	font-size: 14px;
+}
+.pullform .question-circle{
+   color:#ffa700;
+   font-size: 18px;
+}
+.join_tip{
+	padding-left: 10px;
+}
+.ant-input-number-lg.quan_num{
+	width: 120px;
+	margin-right: 10px;
+}
+.create_btns button{
+	font-size: 14px;
+	    padding: 8px 30px 8px 30px;
+}
+.pullform .has-error .ant-form-explain, .has-error .ant-form-split{
+    background-color: #fef9ed;
+    border: 1px solid #ffc8a3;
+    color: #ff6600;
+    font-size: 12px;
+    line-height: 24px;
+    padding: 0 10px;
+    white-space: pre;
+    display: inline-block;
+    border-radius:2px;
+}
+.pullform .has-error .ant-input:focus{
+    border-color: #49a9ee;
+    outline: 0;
+    box-shadow: 0 0 0 2px rgba(16, 142, 233, 0.2);
+}
+.pullform .has-error .ant-input,.pullform .has-error .ant-input-number, .has-error .ant-input:hover {
+    border-color: #d9d9d9;
+}
+.modalForm .ant-form-explain, .modalForm .ant-form-extra{
+	line-height: 18px;
+}
+.select-shop{
+	color: #2db7f5;
+    cursor: pointer;
+}
+.select-shop-info{
+	padding: 0 15px;
+}
+.modalForm .avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    margin-right: 25px;
+}
+
+
+.dynamic-delete-button {
+  cursor: pointer;
+  position: relative;
+  top: 4px;
+  font-size: 23px;
+  color: #999;
+  transition: all .3s;
+  padding-left: 10px;
+}
+.dynamic-delete-button:hover {
+  color: #777;
+}
+.dynamic-delete-button[disabled] {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+
+
